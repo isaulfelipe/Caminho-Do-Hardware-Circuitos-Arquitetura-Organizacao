@@ -15,6 +15,26 @@
 ![Fonte: @isaulfelipe]( /img/ConversaoBinarioDecimalParaNumerosPositivos.png "Fonte @isaulfelipe")
 #### 1.2.4 Conversão Binário-Decimal para Números <= 0: 
    * Primeiro pega o modulo desse número negativo (se -44, o modulo da 44), após isso, faça o topico 1.2.3 com o modulo desse número e depois ponha o sinal de negativo(-).
-
+   
+### 1.3 Portas Lógicas
+#### 1.3.1 Not:
+   * Invente o valor de uma proposição.
+#### 1.3.2 And:
+   * Só é verdade quando ambas proposiçãoes são verdadeiras
+      * Mantra da AND: Zero na entrada, zero na saída.
+#### 1.3.3 Nand:
+   * É a AND com uma Not no final
+      * Só é falso quando todas as proposiçãoes são verdadeiras.
+#### 1.3.4 Or:
+   * É verdade quando no mínimo umas das proposiçãoes é verdadeira.
+      * Mantra da Or: 1 na entrada, 1 na saída.
+#### 1.3.5 Nor:
+   * É uma Or com uma Not no final.
+      * Só é verdade quando todas as proposiçãoes são falsas.
+#### 1.3.6 Xor: 
+   * Só é verdade quando as entradas são diferentes.
+#### 1.3.7 XNor:
+   * Uma Xor com uma Not no final.
+      * Só é verdade quando as duas entradas são iguais.
 
 
