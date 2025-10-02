@@ -10,7 +10,7 @@
 #### 1.2.1 Conversão Decimal-Binário para Números >= 0 :
 ![Fonte: WikiHow](https://www.wikihow.com/images/thumb/4/45/Convert-from-Decimal-to-Binary-Step-9-Version-4.jpg/v4-728px-Convert-from-Decimal-to-Binary-Step-9-Version-4.jpg "Fonte WikiHow")
 #### 1.2.2 Conversão Decimal-Binário para Números <= 0:
-   * Pegue o modulo do numero que você quer converter de decimal para binario e faça o topico 1.2.1 normalmente com o modulo desse numero, após isso basta apenas repetir os números até encontrar o primeiro 1 e depois disso trocar todos os 1 por 0 e 0 por 1.
+   * Pegue o modulo do numero que você quer converter de decimal para binario e faça o topico 1.2.1 normalmente com o modulo desse numero, após isso basta apenas repetir os números até encontrar o primeiro 1 e depois trocar todos os 1 por 0 e 0 por 1.
 #### 1.2.3 Conversão Binário-Decimal para Números >= 0: 
 ![Fonte: @isaulfelipe]( /img/ConversaoBinarioDecimalParaNumerosPositivos.png "Fonte @isaulfelipe")
 #### 1.2.4 Conversão Binário-Decimal para Números <= 0: 
