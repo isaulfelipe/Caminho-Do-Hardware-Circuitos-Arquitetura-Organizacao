@@ -12,4 +12,4 @@
 #### 1.2.2 Conversão Decimal-Binário para Números <= 0:
    * Basta apenas repetir os números até encontrar o primeiro 1, depois disso é apenas inverter todos os numéros após esse primeiro 1.
 #### 1.2.3 Conversão Binário-Decimal para Números >= 0: 
-![Fonte: @isaulfelipe]( /img/ConversaoBinarioDecimalParaNumerosMaiorIgual0.png "Fonte @isaulfelipe")
+![Fonte: @isaulfelipe]( /img/ConversaoBinarioDecimalParaNumerosPositivos.png "Fonte @isaulfelipe")
