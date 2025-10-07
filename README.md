@@ -41,4 +41,9 @@
 
 ### 1.4 Circuitos Combinacionais
    * A combinação de portas cria circuitos mais complexos, como um somador completo e que é a base da ULA.
-
+#### 1.4.1 De Portas Logicas A Um Somador Completo
+   * A combinação de portas lógicas é o que realmente dá vida à lógica digital, permitindo construir circuitos incrivelmente complexos a partir de blocos simples como AND, OR e NOT. Para entender como isso funciona e chegar a um somador completo e que é, de fato, a base da ULA - Unidade Lógica e Aritmética, vamos quebrar o processo em etapas:
+      * Um somador completo é complexo demais para começar, então vamos primeiro a algo mais simples: o Meio Somador (Half Adder). Ele soma dois bits de entrada (A e B) e produz duas saídas:
+         * Soma (S): O resultado da soma.
+         * Vai Um (Carry Out - CO): Um bit que indica se houve um "vai um" para a próxima posição.
+         ![Fonte: @isaulfelipe]( /arq/img/HalfAdder.PNG "Fonte @isaulfelipe")
