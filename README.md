@@ -39,16 +39,14 @@
    * Uma Xor com uma Not no final.
       * Só é verdade quando as duas entradas são iguais.
 
-### 1.4 Circuitos Combinacionais
-   * A combinação de portas cria circuitos mais complexos, como um somador completo e que é a base da ULA.
-#### 1.4.1 De Portas Logicas A Um Somador Completo
+### 1.4 Circuitos Combinacionais - De Portas Logicas A Um Somador Completo
    * A combinação de portas lógicas é o que realmente dá vida à lógica digital, permitindo construir circuitos incrivelmente complexos a partir de blocos simples como AND, OR e NOT. Para entender como isso funciona e chegar a um somador completo e que é, de fato, a base da ULA - Unidade Lógica e Aritmética, vamos quebrar o processo em etapas:
-#### 1.4.1.1 Meio Somador(Half Adder):
+#### 1.4.1 Meio Somador(Half Adder):
    * Um somador completo é complexo demais para começar, vamos começar com o Meio Somador. Ele soma dois bits de entrada e produz duas saídas:
       * Soma (S): O resultado da soma.
       * Vai Um (Carry Out - CO): Um bit que indica se houve um "vai um" para a próxima posição.
       ![Fonte: @isaulfelipe]( /arq/img/HalfAdder.PNG "Fonte @isaulfelipe0")
-#### 1.4.1.2 Somador Completo(Full Adder):
+#### 1.4.2 Somador Completo(Full Adder):
    * O Meio Somador é limitado porque não consegue adicionar um "vai um" de uma soma anterior. Para somar números com múltiplos bits - como fazemos no decimal, onde levamos o "vai um" para a próxima coluna.
       * Ele tem três entradas:
          * A: Primeiro bit a ser somado.
@@ -59,3 +57,7 @@
          * Cout (Carry Out): O "vai um" gerado que será levado para a próxima posição.
          ![Fonte: @isaulfelipe]( /arq/img/FullAdderOnlyLogicGates.PNG "Fonte @isaulfelipe0")
          ![Fonte: @isaulfelipe]( /arq/img/FullAdderWithTwoHalfAdder.PNG "Fonte @isaulfelipe0")
+#### 1.4.3 Somadores de Múltiplos Bits (Ripple Carry Adder):
+   * Agora que temos um Somador Completo que lida com o "vai um" de entrada, podemos empilhá-los para somarmos dois números - que serão números binarios de 8 bits, que pode representar de -128 a 127 usando complemento de dois para representar números com sinais.
+   * Para somar 01001101 + 10111101 precisamos de 8 Somadores Completos.
+   * O carry-out de um Somador Completo se torna o carry-in do próximo Somador Completo na sequência.
