@@ -62,4 +62,7 @@
    * Para somar 01001101 + 10111101 precisamos de 8 Somadores Completos.
    * O carry-out de um Somador Completo se torna o carry-in do próximo Somador Completo na sequência.
    ![Fonte: @isaulfelipe0]( /arq/img/RippleCarryAdderWithFull'sAdder's.PNG "Fonte @isaulfelipe0")
-   
+#### 1.4.4 Unidade Lógica e Aritmética (ULA)
+   * O Somador de Múltiplos Bits é um componente chave da ULA. Mas a ULA não faz apenas somas. Ela também realiza:
+      * Subtrações: Usando um truque chamado "complemento de dois", a subtração pode ser feita com um somador e algumas portas NOT.* Operações Lógicas: AND, OR, NOT, XOR bit a bit.
+      * Deslocamentos: Mover bits para a esquerda ou direita (multiplicação/divisão por potências de 2).
