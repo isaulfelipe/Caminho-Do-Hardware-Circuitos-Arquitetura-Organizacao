@@ -62,7 +62,19 @@
    * Para somar 01001101 + 10111101 precisamos de 8 Somadores Completos.
    * O carry-out de um Somador Completo se torna o carry-in do próximo Somador Completo na sequência.
    ![Fonte: @isaulfelipe0]( /arq/img/RippleCarryAdderWithFull'sAdder's.PNG "Fonte @isaulfelipe0")
-#### 1.4.4 Unidade Lógica e Aritmética (ULA)
-   * O Somador de Múltiplos Bits é um componente chave da ULA. Mas a ULA não faz apenas somas. Ela também realiza:
-      * Subtrações: Usando um truque chamado "complemento de dois", a subtração pode ser feita com um somador e algumas portas NOT.* Operações Lógicas: AND, OR, NOT, XOR bit a bit.
-      * Deslocamentos: Mover bits para a esquerda ou direita (multiplicação/divisão por potências de 2).
+
+## 2. O Caminho para a CPU.
+
+### 2.1 Circuitos Sequenciais vs Circuitos Combinacionais:
+#### 2.1.1 Circuitos Combinacionais:
+   * Em um circuito combinacional, a saída atual depende apenas das entradas atuais. Ele não possui "memória" de estados anteriores.
+   * Características:
+      * Não armazena informações. O que acontece agora é determinado exclusivamente pelo que está nas entradas agora.
+      * Geralmente mais rápidos, pois não há necessidade de estados internos ou sincronização por clock para sua operação básica.
+      * Assim que as entradas mudam, as saídas respondem (após um pequeno atraso de propagação das portas lógicas).
+      * Exemplos:
+         * Portas Lógicas Básicas: AND, OR, NOT, XOR.
+         * Somadores: Como o Meio Somador e o Somador Completo que vimos, o resultado da soma e do carry dependem apenas dos bits que estão sendo somados naquele momento.
+         * Decodificadores: Convertem um código binário em um sinal de saída único (ex: ativar uma das 4 saídas com base em 2 bits de entrada).
+         * Demultiplexador: Seleciona um único dado de entrada para uma das várias saídas disponíveis, com base em bits de seleção.
+         * Multiplexadores (MUX): Selecionam uma de várias entradas para ser roteada para uma única saída, com base em bits de seleção.
