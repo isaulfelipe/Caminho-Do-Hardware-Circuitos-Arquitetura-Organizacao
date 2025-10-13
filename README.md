@@ -74,7 +74,7 @@
       * Assim que as entradas mudam, as saídas respondem (após um pequeno atraso de propagação das portas lógicas).
       * Exemplos:
          * Portas Lógicas Básicas: AND, OR, NOT, XOR.
-         * Somadores: Como o Meio Somador e o Somador Completo que vimos, o resultado da soma e do carry dependem apenas dos bits que estão sendo somados naquele momento.
-         * Decodificadores: Convertem um código binário em um sinal de saída único (ex: ativar uma das 4 saídas com base em 2 bits de entrada).
-         * Demultiplexador: Seleciona um único dado de entrada para uma das várias saídas disponíveis, com base em bits de seleção.
-         * Multiplexadores (MUX): Selecionam uma de várias entradas para ser roteada para uma única saída, com base em bits de seleção.
+         * Somadores como o Meio Somador e o Somador Completo que vimos. O resultado da soma e do carry dependem apenas dos bits que estão sendo somados naquele momento.
+         * Decodificadores que convertem um código binário em um sinal de saída único (ex: ativar uma das 4 saídas com base em 2 bits de entrada).
+         * Demultiplexadores que seleciona um único dado de entrada para uma das várias saídas disponíveis, com base em bits de seleção.
+         * Multiplexadores que selecionam uma de várias entradas para ser roteada para uma única saída, com base em bits de seleção.
