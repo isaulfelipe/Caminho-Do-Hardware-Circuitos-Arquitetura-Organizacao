@@ -91,6 +91,6 @@
 ### 2.2 Flip-Flop (a unidade de memória mais básica):
    * Flip Flop RS : 
       * O FF RS é o tipo mais básico e com o funcionamento mais simples de se entender. O seu nome é devido a suas duas entradas, a Set e a Reset, responsáveis por alterar diretamente os estados das saídas.
-      * Tabela Verdade: 
+      * Tabela Verdade: A tabela verdade de um Flip Flop SR(Set/Reset)
       ![Fonte: knowelectronic.com]( /arq/img/FlipFlopSRTruthTable.png "Fonte knowelectronic.com")
       Ele implementado com portas Nand e Nor esta na pasta arq/circuitos
