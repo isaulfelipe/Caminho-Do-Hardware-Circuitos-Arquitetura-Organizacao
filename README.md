@@ -89,10 +89,10 @@
          * Contadores: Incrementam um valor a cada pulso de clock. A saída depende do valor anterior e do pulso do clock.
          * Registradores: Grupos de Flip-Flops que armazenam palavras binárias (vários bits).
 ### 2.2 Flip-Flop (a unidade de memória mais básica):
-   * Flip Flop RS: 
+   * Flip Flop RS:
       * O FF RS é o tipo mais básico e com o funcionamento mais simples de se entender. O seu nome é devido a suas duas entradas, a Set e a Reset, responsáveis por alterar diretamente os estados das saídas.
       * Tabela Verdade: A tabela verdade de um Flip Flop SR(Set/Reset)
-      ![Fonte: makerhero.com]( /arq/img/FlipFlopSRTruthTable.png "Fonte makerhero.com")
+      ![Fonte: makerhero.com]( /arq/img/FlipFlopSRTruthTable.webp "Fonte makerhero.com")
       * Ele implementado com portas Nand e Nor esta na pasta arq/circuitos
    * Flip Flop JK:
       * O FF JK é um dos mais utilizados, pois diferente do RS ele tem o tratamento para o caso onde S=1 e R=1.
