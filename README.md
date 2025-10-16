@@ -78,3 +78,19 @@
          * Decodificadores que convertem um código binário em um sinal de saída único (ex: ativar uma das 4 saídas com base em 2 bits de entrada).
          * Demultiplexadores que seleciona um único dado de entrada para uma das várias saídas disponíveis, com base em bits de seleção.
          * Multiplexadores que selecionam uma de várias entradas para ser roteada para uma única saída, com base em bits de seleção.
+#### 2.1.2 Circuitos Sequenciais:
+   * Em um circuito sequencial, a saída atual depende das entradas atuais e dos estados anteriores. Eles contêm elementos de memória.
+   * Características:
+      * Com Memória (Estado Interno): Possuem a capacidade de armazenar bits de informação, lembrando-se de eventos passados. Isso é feito através de elementos de memória como Flip-Flops ou Latches.
+      * Sincronização: A maioria dos circuitos sequenciais é síncrona, ou seja, suas mudanças de estado são controladas por um sinal de clock. O clock garante que as mudanças ocorram em momentos específicos e organizados.
+      * Saída Depende da Entradas Anteriores: Para saber a saída, você precisa saber não apenas as entradas atuais, mas também das entradas anteriores.
+      * Exemplos:
+         * Latches e Flip-Flops: São os blocos de construção básicos da memória digital, capazes de armazenar 1 bit de informação.
+         * Contadores: Incrementam um valor a cada pulso de clock. A saída depende do valor anterior e do pulso do clock.
+         * Registradores: Grupos de Flip-Flops que armazenam palavras binárias (vários bits).
+### 2.2 Flip-Flop (a unidade de memória mais básica):
+   * Flip Flop RS : 
+      * O FF RS é o tipo mais básico e com o funcionamento mais simples de se entender. O seu nome é devido a suas duas entradas, a Set e a Reset, responsáveis por alterar diretamente os estados das saídas.
+      * Tabela Verdade: 
+      ![Fonte: knowelectronic.com]( /arq/img/FlipFlopSRTruthTable.png "Fonte knowelectronic.com")
+      Ele implementado com portas Nand e Nor esta na pasta arq/circuitos
