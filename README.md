@@ -93,11 +93,26 @@
       * O FF RS é o tipo mais básico e com o funcionamento mais simples de se entender. O seu nome é devido a suas duas entradas, a Set e a Reset, responsáveis por alterar diretamente os estados das saídas.
       * Tabela Verdade: A tabela verdade de um Flip Flop SR(Set/Reset)
          * ![Fonte: makerhero.com]( /arq/img/FlipFlopSRTruthTable.webp "Fonte makerhero.com")
-         * ![Fonte: makerhero.com]( /arq/img/FlipFlopSR.png)
+      * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopSR.png "Fonte @isaulfelipe0")
       * Ele implementado com portas Nand e Nor esta na pasta arq/circuitos
-   * Flip Flop JK:
+   * #### Flip Flop JK:
       * O FF JK é um dos mais utilizados, pois diferente do RS ele tem o tratamento para o caso onde S=1 e R=1.
    * Tabela Verdade: A tabela verdade de um Flip Flop JK
       * ![Fonte: makerhero.com]( /arq/img/FlipFlopJKTruthTable.webp "Fonte makerhero.com")
-      * ![Fonte: makerhero.com]( /arq/img/FlipFlopJKWithOneFlipFlopSR.webp "Fonte makerhero.com")
+   * ![Fonte: makerhero.com]( /arq/img/FlipFlopJKWithOneFlipFlopSR.webp "Fonte makerhero.com")
    * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
+   * #### Flip Flop T:
+      * O FF é T nada mais do que um FF JK com uma única entrada interligadas, implicando que J=K. Como as duas entradas do circuito sempre são iguais, o circuito irá funcionar como um comutador da saída quando a entrada T for 1 e não são encontrado comercialmente, sendo geralmente feito a partir de um FF JK quando se faz necessário.
+      * Tabela Verdade: A tabela verdade de um Flip Flop T
+         * ![Fonte: makerhero.com]( /arq/img/FlipFlopTTruthTable.webp "Fonte makerhero.com")
+      * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopTWithOneFlipFlopJK.png "Fonte @isaulfelipe0")
+      * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
+   * #### Flip Flop D:
+      * Parecido com o FF T, o circuito do FF D consiste nas duas entradas interligadas, entretanto uma entrada é sempre o sinal negado da outra, logo J ≠ K. Este circuito é bastante importante e amplamente utilizado na eletrônica para diversos projetos, isso devido ao fato de ele não existir a condição de comutar o estado anterior. Esta característica força o Flip Flop a funcionar como uma memória onde o dado sempre será obtido pela entrada D.
+      * Tabela Verdade: A tabela verdade de um flip flop D
+         * ![Fonte: instrumentationtools.com]( /arq/img/FlipFlopDTruthTable.webp "Fonte instrumentationtools.com")
+      * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopDWithOneFlipFlopJk.png "Fonte @isaulfelipe0")
+      * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
+### Como um registrador é feito com vários flip-flops:
+   * Existem varios tipos de registradores, agora vou lhe mostrar como os registradores de deslocamento do tipo 1. SISO(Serial-in/serial out) 2. SIPO (serial-In/Parallel-out) 3. PIPO(Parallel-in/Parallel-out) são feitos através de Flip Flops. 
+      
