@@ -113,6 +113,6 @@
          * ![Fonte: instrumentationtools.com]( /arq/img/FlipFlopDTruthTable.webp "Fonte instrumentationtools.com")
       * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopDWithOneFlipFlopJk.png "Fonte @isaulfelipe0")
       * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
-### Como um registrador é feito com vários flip-flops:
+### 2.3 Como um registrador é feito com vários flip-flops:
    * Existem varios tipos de registradores, agora vou lhe mostrar como os registradores de deslocamento do tipo 1. SISO(Serial-in/serial out) 2. SIPO (serial-In/Parallel-out) 3. PIPO(Parallel-in/Parallel-out) são feitos através de Flip Flops. 
       
