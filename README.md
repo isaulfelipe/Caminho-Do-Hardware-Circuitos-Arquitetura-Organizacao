@@ -92,12 +92,12 @@
    * Flip Flop RS:
       * O FF RS é o tipo mais básico e com o funcionamento mais simples de se entender. O seu nome é devido a suas duas entradas, a Set e a Reset, responsáveis por alterar diretamente os estados das saídas.
       * Tabela Verdade: A tabela verdade de um Flip Flop SR(Set/Reset)
-      ![Fonte: makerhero.com]( /arq/img/FlipFlopSRTruthTable.webp "Fonte makerhero.com")
+         * ![Fonte: makerhero.com]( /arq/img/FlipFlopSRTruthTable.webp "Fonte makerhero.com")
+         * ![Fonte: makerhero.com]( /arq/img/FlipFlopSR.png)
       * Ele implementado com portas Nand e Nor esta na pasta arq/circuitos
    * Flip Flop JK:
       * O FF JK é um dos mais utilizados, pois diferente do RS ele tem o tratamento para o caso onde S=1 e R=1.
    * Tabela Verdade: A tabela verdade de um Flip Flop JK
-    
-   ![Fonte: makerhero.com]( /arq/img/FlipFlopJKTruthTable.webp "Fonte makerhero.com")
-   ![Fonte: makerhero.com]( /arq/img/FlipFlopJKWithOneFlipFlopSR.webp "Fonte makerhero.com")
+      * ![Fonte: makerhero.com]( /arq/img/FlipFlopJKTruthTable.webp "Fonte makerhero.com")
+      * ![Fonte: makerhero.com]( /arq/img/FlipFlopJKWithOneFlipFlopSR.webp "Fonte makerhero.com")
    * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
