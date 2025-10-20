@@ -65,7 +65,6 @@
 ### 1.5 Unidade Lógica e Aritmética (ULA)
 ![Fonte: @isaulfelipe0]( /arq/img/ULA.webp "Fonte @isaulfelipe0")
 
-
 ## 2. O Caminho para a CPU.
 
 ### 2.1 Circuitos Sequenciais vs Circuitos Combinacionais:
