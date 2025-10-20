@@ -98,3 +98,4 @@
       * O FF JK é um dos mais utilizados, pois diferente do RS ele tem o tratamento para o caso onde S=1 e R=1.
    * Tabela Verdade: A tabela verdade de um Flip Flop JK 
    ![Fonte: makerhero.com]( /arq/img/FlipFlopJKTruthTable.webp "Fonte makerhero.com")
+   * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
