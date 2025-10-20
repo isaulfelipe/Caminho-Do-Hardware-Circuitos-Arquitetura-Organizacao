@@ -1122,6 +1122,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(340,200)" to="(350,200)"/>
     <wire from="(140,200)" to="(150,200)"/>
     <wire from="(240,200)" to="(250,200)"/>
+    <wire from="(130,440)" to="(200,440)"/>
     <wire from="(470,230)" to="(470,300)"/>
     <wire from="(270,230)" to="(270,300)"/>
     <wire from="(370,230)" to="(370,300)"/>
@@ -1144,6 +1145,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(170,300)" to="(270,300)"/>
     <wire from="(180,330)" to="(280,330)"/>
     <wire from="(110,160)" to="(140,160)"/>
+    <wire from="(50,500)" to="(80,500)"/>
     <comp lib="0" loc="(540,200)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -1152,15 +1154,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(50,220)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp loc="(230,440)" name="FlipFlopD"/>
     <comp lib="4" loc="(190,200)" name="D Flip-Flop"/>
     <comp lib="0" loc="(110,300)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Enable"/>
     </comp>
     <comp lib="0" loc="(110,160)" name="Clock"/>
-    <comp lib="4" loc="(290,200)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(390,200)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(490,200)" name="D Flip-Flop"/>
     <comp lib="0" loc="(180,350)" name="Pin">
       <a name="facing" val="north"/>
       <a name="tristate" val="false"/>
@@ -1171,6 +1171,20 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="Preset"/>
     </comp>
+    <comp lib="0" loc="(80,500)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(130,440)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(50,500)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="4" loc="(290,200)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(390,200)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(490,200)" name="D Flip-Flop"/>
   </circuit>
   <circuit name="ResgisterSIPO">
     <a name="circuit" val="ResgisterSIPO"/>
