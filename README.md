@@ -62,6 +62,9 @@
    * Para somar 01001101 + 10111101 precisamos de 8 Somadores Completos.
    * O carry-out de um Somador Completo se torna o carry-in do próximo Somador Completo na sequência.
    ![Fonte: @isaulfelipe0]( /arq/img/RippleCarryAdderWithFull'sAdder's.PNG "Fonte @isaulfelipe0")
+### 1.5 Unidade Lógica e Aritmética (ULA)
+![Fonte: @isaulfelipe0]( /arq/img/ULA.webp "Fonte @isaulfelipe0")
+
 
 ## 2. O Caminho para a CPU.
 
