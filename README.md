@@ -96,3 +96,5 @@
       * Ele implementado com portas Nand e Nor esta na pasta arq/circuitos
    * Flip Flop JK:
       * O FF JK é um dos mais utilizados, pois diferente do RS ele tem o tratamento para o caso onde S=1 e R=1.
+   * Tabela Verdade: A tabela verdade de um Flip Flop JK 
+   ![Fonte: makerhero.com]( /arq/img/FlipFlopJKTruthTable.webp "Fonte makerhero.com")
