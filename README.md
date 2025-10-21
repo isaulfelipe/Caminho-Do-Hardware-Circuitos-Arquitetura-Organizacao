@@ -118,7 +118,7 @@ Após isso adicione um 0 a esquerda.
       * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopDWithOneFlipFlopJk.png "Fonte @isaulfelipe0")
       * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
 ### 2.3 Como um registrador é feito com vários flip-flops:
-   * Existem varios tipos de registradores, agora vou lhe mostrar como os registradores de deslocamento do tipo 1. SISO(Serial-in/serial out) 2. SIPO (serial-In/Parallel-out) 3. PIPO(Parallel-in/Parallel-out) são feitos através de Flip Flops. 
+   * Existem varios tipos de registradores, agora vou lhe mostrar como os registradores de deslocamento do tipo SISO(Serial-in/serial out) e PIPO(Parallel-in/Parallel-out) são feitos através de Flip Flops.
       * SISO:
       ![Fonte: @isaulfelipe0]( /arq/img/RegisterSISO.PNG "Fonte @isaulfelipe0")
       * PIPO:
@@ -134,10 +134,10 @@ Após isso adicione um 0 a esquerda.
          * O que é? É o "cérebro do cérebro". A Unidade de Controle coordena TODAS as operações da CPU. Ela interpreta as instruções de um programa (que vêm da memória), gera os sinais de controle necessários para a ULA e os registradores, e sincroniza o fluxo de dados entre os diferentes componentes da CPU e da memória.
          * Analogia: Esta é o próprio diretor da empresa (ou o maestro de uma orquestra). Ele lê o plano de negócios (instrução do programa), decide qual departamento (ULA, Registradores) precisa fazer o quê, em que ordem e quando. Ele envia memorandos (sinais de controle) para garantir que todos trabalhem em sincronia e no momento certo. Sem o diretor, os outros componentes não saberiam o que fazer.
          * Função: Busca instruções na memória, decodifica-as, gera sinais de temporização e controle para dirigir as operações da ULA, controlar o movimento de dados para e dos registradores, e interagir com outros componentes do sistema.
-      * ##### Registradores: 
+      * ##### Registradores:
          * O que são? São pequenas e rápidas memórias dentro da própria CPU. Eles armazenam temporariamente dados, instruções e endereços de memória que a CPU precisa acessar de forma muito rápida durante o processamento. São o tipo de memória mais rápido de um computador, mas também o mais caro e com menor capacidade.
          * Analogia: Pense neles como as mesas de trabalho (ou blocos de notas) do diretor e do gênio da matemática. Em vez de ir buscar um arquivo no almoxarifado (memória RAM) toda hora, eles mantêm os documentos e números mais importantes e frequentemente usados bem à mão, em suas mesas. Isso agiliza muito o trabalho.
-         * Função: 
+         * Função:
             * Registradores de Uso Geral: Armazenam dados que estão sendo processados pela ULA.
             * Contador de Programa (PC - Program Counter): Guarda o endereço da próxima instrução a ser executada.
             * Registrador de Instrução (IR - Instruction Register): Armazena a instrução que está sendo decodificada e executada no momento.
