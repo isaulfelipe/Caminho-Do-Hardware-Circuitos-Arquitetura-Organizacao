@@ -49,7 +49,7 @@ Após isso adicione um 0 a esquerda.
       * Vai Um (Carry Out - CO): Um bit que indica se houve um "vai um" para a próxima posição.
       ![Fonte: @isaulfelipe0]( /arq/img/HalfAdder.PNG "Fonte @isaulfelipe0")
 #### 1.4.2 Somador Completo(Full Adder):
-   * O Meio Somador é limitado porque não consegue adicionar um "vai um" de uma soma anterior. Para somar números com múltiplos bits - como fazemos no decimal, onde levamos o "vai um" para a próxima coluna.
+   * O Meio Somador é limitado porque não consegue adicionar um "vai um" de uma soma anterior, para somar números com múltiplos bits - como fazemos no decimal, onde levamos o "vai um" para a próxima coluna.
       * Ele tem três entradas:
          * A: Primeiro bit a ser somado.
          * B: Segundo bit a ser somado.
@@ -119,13 +119,11 @@ Após isso adicione um 0 a esquerda.
       * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
 ### 2.3 Como um registrador é feito com vários flip-flops:
    * Existem varios tipos de registradores, agora vou lhe mostrar como os registradores de deslocamento do tipo 1. SISO(Serial-in/serial out) 2. SIPO (serial-In/Parallel-out) 3. PIPO(Parallel-in/Parallel-out) são feitos através de Flip Flops. 
-      * SISO: 
-      ![Fonte: @isaulfelipe0]( /arq/img "Fonte @isaulfelipe0")
-      * SIPO:
-      ![Fonte: @isaulfelipe0]( /arq/img "Fonte @isaulfelipe0")
-      * PIPO: 
-      ![Fonte: @isaulfelipe0]( /arq/img "Fonte @isaulfelipe0")
-### 2.4 A Estrutura da CPU: 
+      * SISO:
+      ![Fonte: @isaulfelipe0]( /arq/img/RegisterSISO.PNG "Fonte @isaulfelipe0")
+      * PIPO:
+      ![Fonte: @isaulfelipe0]( /arq/img/RegisterPIPO.PNG "Fonte @isaulfelipe0")
+### 2.4 A Estrutura da CPU:
    * Imagine que a CPU é como o diretor de uma grande empresa ou o cérebro humano em ação, com funções muito especializadas. Ela é responsável por executar todas as instruções de um programa, desde cálculos simples até a coordenação de tarefas complexas.Imagine que a CPU é como o diretor de uma grande empresa ou o cérebro humano em ação, com funções muito especializadas. Ela é responsável por executar todas as instruções de um programa, desde cálculos simples até a coordenação de tarefas complexas.
    * #### Os três componentes principais trabalham em conjunto para realizar essas operações:
       * ##### Unidade Lógica e Aritmética (ULA):
