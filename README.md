@@ -163,7 +163,7 @@ Após isso adicione um 0 a esquerda.
             * O objetivo é realizar a operação real especificada pela instrução decodificada.
             * 1. Movimentação de Dados: Os dados necessários para a operação são movidos dos Registradores para as entradas da Unidade Lógica e Aritmética (ULA).
             * 2. Operação da ULA: A UC ativa a ULA e envia o sinal de controle específico para a operação (ex: sinal SOMA). A ULA realiza a operação.
-            * 3. Armazenamento de Resultado: O resultado da ULA é enviado ao Barramento de Dados e, tipicamente, armazenado de volta em um Registrador de uso geral (como o Acumulador) ou em um endereço de memória.
+            * 3. Armazenamento de Resultado: O resultado da ULA é enviado ao Barramento de Dados e, tipicamente, armazenado de volta em um Registrador de uso geral ou em um endereço de memória.
             * 4. Verificação de Flags: O estado da ULA é checado para atualizar os flags (como Zero, Negativo ou Vai Um) no Registrador de Estado da CPU.
             * Após a etapa de Execução, o ciclo se repete, começando novamente com a Busca da instrução apontada pelo PC (que já foi incrementado no Passo 1). Esse loop incessante é a força motriz de todo o software em execução.
 ## 3. Organização do Computador.
