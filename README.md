@@ -152,13 +152,13 @@ Após isso adicione um 0 a esquerda.
             * 3. Memória → IR: A instrução é copiada do Barramento de Dados para o Registrador de Instrução (IR).
             * 4. PC + 1: O Contador de Programa (PC) é incrementado para apontar para o endereço da próxima instrução.
          * ##### Passo 2: Decodificação (Decode)
-            * O objetivo é interpretar a instrução que acabou de ser buscada e preparar o circuito para executá-la.
+            * O objetivo é interpretar a instrução que acabou de ser buscada e preparar o circuito para executar a instrução.
             * 1. IR → UC: A instrução (agora no Registrador de Instrução - IR) é enviada à Unidade de Controle (UC).
             * 2. Interpretação: A UC analisa o código de operação (opcode) da instrução (ex: ADD, MOVE, JUMP).
             * 3. Geração de Sinais: Com base no opcode, a UC gera todos os sinais de controle necessários. Ela define:
                * Quais Registradores fornecerão os dados de entrada.
                * Qual operação a ULA deverá realizar.
-               * Onde o resultado deverá ser armazenado (em qual Registrador ou endereço de Memória).
+               * Em qual registrador ou endereço de memória o resultado deverá ser armazenado.
          * ##### Passo 3: Execução (Execute)
             * O objetivo é realizar a operação real especificada pela instrução decodificada.
             * 1. Movimentação de Dados: Os dados necessários para a operação são movidos dos Registradores para as entradas da Unidade Lógica e Aritmética (ULA).
