@@ -124,7 +124,7 @@ Após isso adicione um 0 a esquerda.
       * PIPO:
       ![Fonte: @isaulfelipe0]( /arq/img/RegisterPIPO.PNG "Fonte @isaulfelipe0")
 ### 2.4 A Estrutura da CPU:
-   * Imagine que a CPU é como o diretor de uma grande empresa ou o cérebro humano em ação, com funções muito especializadas. Ela é responsável por executar todas as instruções de um programa, desde cálculos simples até a coordenação de tarefas complexas.Imagine que a CPU é como o diretor de uma grande empresa ou o cérebro humano em ação, com funções muito especializadas. Ela é responsável por executar todas as instruções de um programa, desde cálculos simples até a coordenação de tarefas complexas.
+   * Imagine que a CPU é como o diretor de uma grande empresa ou o cérebro humano em ação, com funções muito especializadas. Ela é responsável por executar todas as instruções de um programa, desde cálculos simples até a coordenação de tarefas complexas. Imagine que a CPU é como o diretor de uma grande empresa ou o cérebro humano em ação, com funções muito especializadas. Ela é responsável por executar todas as instruções de um programa, desde cálculos simples até a coordenação de tarefas complexas.
    * #### Os três componentes principais trabalham em conjunto para realizar essas operações:
       * ##### Unidade Lógica e Aritmética (ULA):
          * O que é? É o coração numérico e lógico da CPU. É onde as operações matemáticas (como soma, subtração, multiplicação e divisão) e as operações lógicas (como AND, OR, NOT, XOR, e comparações) são realmente executadas.
@@ -142,7 +142,7 @@ Após isso adicione um 0 a esquerda.
             * Contador de Programa (PC - Program Counter): Guarda o endereço da próxima instrução a ser executada.
             * Registrador de Instrução (IR - Instruction Register): Armazena a instrução que está sendo decodificada e executada no momento.
             * Acumulador: Armazena resultados intermediários de operações da ULA.
-            * Esses três componentes trabalham em um ciclo contínuo: a Unidade de Controle busca uma instrução, a coloca em um Registrador, a Unidade de Controle a decodifica e instrui a ULA a performar uma operação em dados que também estão nos Registradores, e o resultado é novamente armazenado em um Registrador. Essa orquestração eficiente é o que permite que a CPU execute milhões ou bilhões de operações por segundo, dando vida ao computador.
+         * Esses três componentes trabalham em um ciclo contínuo: a Unidade de Controle busca uma instrução, a coloca em um Registrador, a Unidade de Controle a decodifica e instrui a ULA a performar uma operação em dados que também estão nos Registradores, e o resultado é novamente armazenado em um Registrador. Essa orquestração eficiente é o que permite que a CPU execute milhões ou bilhões de operações por segundo, dando vida ao computador.
    * #### O Ciclo de Instrução:
       * O Ciclo de Instrução - também conhecido como ciclo Fetch-Decode-Execute, ou Busca-Decodifica-Executa - é o processo fundamental que a CPU repete incessantemente, e é o que amarra o papel da Unidade de Controle, dos Registradores e da ULA
          * ##### Passo 1: Busca (Fetch)
@@ -165,7 +165,7 @@ Após isso adicione um 0 a esquerda.
             * 2. Operação da ULA: A UC ativa a ULA e envia o sinal de controle específico para a operação (ex: sinal SOMA). A ULA realiza a operação.
             * 3. Armazenamento de Resultado: O resultado da ULA é enviado ao Barramento de Dados e, tipicamente, armazenado de volta em um Registrador de uso geral (como o Acumulador) ou em um endereço de memória.
             * 4. Verificação de Flags: O estado da ULA é checado para atualizar os flags (como Zero, Negativo ou Vai Um) no Registrador de Estado da CPU.
-      * Após a etapa de Execução, o ciclo se repete, começando novamente com a Busca da instrução apontada pelo PC (que já foi incrementado no Passo 1). Esse loop incessante é a força motriz de todo o software em execução.
+            * Após a etapa de Execução, o ciclo se repete, começando novamente com a Busca da instrução apontada pelo PC (que já foi incrementado no Passo 1). Esse loop incessante é a força motriz de todo o software em execução.
 ## 3. Organização do Computador.
 ### 3.1 Hierarquia de Memória:
    * A utilização de vários tipos de memória em um computador é um pilar da arquitetura moderna, conhecida como Hierarquia de Memória.
