@@ -10,13 +10,13 @@
 
 ### 1.2 Conversão
 #### 1.2.1 Conversão Decimal-Binário para Números >= 0 :
-![Fonte: WikiHow](https://www.wikihow.com/images/thumb/4/45/Convert-from-Decimal-to-Binary-Step-9-Version-4.jpg/v4-728px-Convert-from-Decimal-to-Binary-Step-9-Version-4.jpg "Fonte WikiHow")
+![Fonte: WikiHow](https://www.wikihow.com/images/thumb/4/45/Convert-from-Decimal-to-Binary-Step-9-Version-4.jpg/v4-728px-Convert-from-Decimal-to-Binary-Step-9-Version-4.jpg)
 
 Após isso adicione um 0 a esquerda.
 #### 1.2.2 Conversão Decimal-Binário para Números < 0:
    * Pegue o modulo do numero que você quer converter de decimal para binario e faça o topico 1.2.1 normalmente com o modulo desse numero, após isso basta apenas repetir os números até encontrar o primeiro 1 e depois trocar todos os 1 por 0 e 0 por 1.
 #### 1.2.3 Conversão Binário-Decimal para Números >= 0:
-![Fonte: @isaulfelipe0]( /arq/img/ConversaoBinarioDecimalParaNumerosPositivos.png "Fonte @isaulfelipe")
+![Fonte: @isaulfelipe0]( /arq/img/ConversaoBinarioDecimalParaNumerosPositivos.png)
 #### 1.2.4 Conversão Binário-Decimal para Números < 0:
    * Basta apenas repetir os números até encontrar o primeiro 1 e depois trocar todos os 1 por 0 e 0 por 1, após isso, faça o topico 1.2.3 com o modulo desse número e depois ponha o sinal de negativo(-).
 
@@ -47,7 +47,7 @@ Após isso adicione um 0 a esquerda.
    * Um somador completo é complexo demais para começar, vamos começar com o Meio Somador. Ele soma dois bits de entrada e produz duas saídas:
       * Soma (S): O resultado da soma.
       * Vai Um (Carry Out - CO): Um bit que indica se houve um "vai um" para a próxima posição.
-      ![Fonte: @isaulfelipe0]( /arq/img/HalfAdder.PNG "Fonte @isaulfelipe0")
+      ![Fonte: @isaulfelipe0]( /arq/img/HalfAdder.PNG)
 #### 1.4.2 Somador Completo(Full Adder):
    * O Meio Somador é limitado porque não consegue adicionar um "vai um" de uma soma anterior, para somar números com múltiplos bits - como fazemos no decimal, onde levamos o "vai um" para a próxima coluna.
       * Ele tem três entradas:
@@ -57,15 +57,15 @@ Após isso adicione um 0 a esquerda.
       * E Duas saídas:
          * S (Soma): O bit resultante da soma.
          * Cout (Carry Out): O "vai um" gerado que será levado para a próxima posição.
-         ![Fonte: @isaulfelipe0]( /arq/img/FullAdderOnlyLogicGates.PNG "Fonte @isaulfelipe0")
-         ![Fonte: @isaulfelipe0]( /arq/img/FullAdderWithTwoHalfAdder.PNG "Fonte @isaulfelipe0")
+         ![Fonte: @isaulfelipe0]( /arq/img/FullAdderOnlyLogicGates.PNG)
+         ![Fonte: @isaulfelipe0]( /arq/img/FullAdderWithTwoHalfAdder.PNG)
 #### 1.4.3 Somadores de Múltiplos Bits (Ripple Carry Adder):
    * Agora que temos um Somador Completo que lida com o "vai um" de entrada, podemos empilhá-los para somarmos dois números - que serão números binarios de 8 bits, que pode representar de -128 a 127 usando complemento de dois para representar números com sinais.
    * Para somar 01001101 + 10111101 precisamos de 8 Somadores Completos.
    * O carry-out de um Somador Completo se torna o carry-in do próximo Somador Completo na sequência.
-   ![Fonte: @isaulfelipe0]( /arq/img/RippleCarryAdderWithFull'sAdder's.PNG "Fonte @isaulfelipe0")
+   ![Fonte: @isaulfelipe0]( /arq/img/RippleCarryAdderWithFull'sAdder's.PNG)
 ### 1.5 Unidade Lógica e Aritmética (ULA)
-![Fonte: @isaulfelipe0]( /arq/img/ULA.webp "Fonte @isaulfelipe0")
+![Fonte: @isaulfelipe0]( /arq/img/ULA.webp)
 
 ## 2. O Caminho para a CPU.
 
@@ -96,33 +96,33 @@ Após isso adicione um 0 a esquerda.
    * #### Flip Flop RS:
       * O FF RS é o tipo mais básico e com o funcionamento mais simples de se entender. O seu nome é devido a suas duas entradas, a Set e a Reset, responsáveis por alterar diretamente os estados das saídas.
       * Tabela Verdade: A tabela verdade de um Flip Flop SR(Set/Reset)
-         * ![Fonte: makerhero.com]( /arq/img/FlipFlopSRTruthTable.webp "Fonte makerhero.com")
-      * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopSR.png "Fonte @isaulfelipe0")
+         * ![Fonte: makerhero.com]( /arq/img/FlipFlopSRTruthTable.webp)
+      * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopSR.png)
       * Ele implementado com portas Nand e Nor esta na pasta arq/circuitos
    * #### Flip Flop JK:
       * O FF JK é um dos mais utilizados, pois diferente do RS ele tem o tratamento para o caso onde S=1 e R=1.
    * Tabela Verdade: A tabela verdade de um Flip Flop JK
-      * ![Fonte: makerhero.com]( /arq/img/FlipFlopJKTruthTable.webp "Fonte makerhero.com")
-   * ![Fonte: makerhero.com]( /arq/img/FlipFlopJKWithOneFlipFlopSR.webp "Fonte makerhero.com")
+      * ![Fonte: makerhero.com]( /arq/img/FlipFlopJKTruthTable.webp)
+   * ![Fonte: makerhero.com]( /arq/img/FlipFlopJKWithOneFlipFlopSR.webp)
    * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
    * #### Flip Flop T:
       * O FF é T nada mais do que um FF JK com uma única entrada interligadas, implicando que J=K. Como as duas entradas do circuito sempre são iguais, o circuito irá funcionar como um comutador da saída quando a entrada T for 1 e não são encontrado comercialmente, sendo geralmente feito a partir de um FF JK quando se faz necessário.
       * Tabela Verdade: A tabela verdade de um Flip Flop T
-         * ![Fonte: makerhero.com]( /arq/img/FlipFlopTTruthTable.webp "Fonte makerhero.com")
-      * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopTWithOneFlipFlopJK.png "Fonte @isaulfelipe0")
+         * ![Fonte: makerhero.com]( /arq/img/FlipFlopTTruthTable.webp)
+      * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopTWithOneFlipFlopJK.png)
       * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
    * #### Flip Flop D:
       * Parecido com o FF T, o circuito do FF D consiste nas duas entradas interligadas, entretanto uma entrada é sempre o sinal negado da outra, logo J ≠ K. Este circuito é bastante importante e amplamente utilizado na eletrônica para diversos projetos, isso devido ao fato de ele não existir a condição de comutar o estado anterior. Esta característica força o Flip Flop a funcionar como uma memória onde o dado sempre será obtido pela entrada D.
       * Tabela Verdade: A tabela verdade de um flip flop D
-         * ![Fonte: instrumentationtools.com]( /arq/img/FlipFlopDTruthTable.webp "Fonte instrumentationtools.com")
-      * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopDWithOneFlipFlopJk.png "Fonte @isaulfelipe0")
+         * ![Fonte: instrumentationtools.com]( /arq/img/FlipFlopDTruthTable.webp)
+      * ![Fonte: @isaulfelipe0]( /arq/img/FlipFlopDWithOneFlipFlopJk.png)
       * Por causas das limitações do logisim não foi possiível implementar com portas igual aos outros circuitos.
 ### 2.3 Como um registrador é feito com vários flip-flops:
    * Existem varios tipos de registradores, agora vou lhe mostrar como os registradores de deslocamento do tipo SISO(Serial-in/serial out) e PIPO(Parallel-in/Parallel-out) são feitos através de Flip Flops.
       * SISO:
-      ![Fonte: @isaulfelipe0]( /arq/img/RegisterSISO.PNG "Fonte @isaulfelipe0")
+      ![Fonte: @isaulfelipe0]( /arq/img/RegisterSISO.PNG)
       * PIPO:
-      ![Fonte: @isaulfelipe0]( /arq/img/RegisterPIPO.PNG "Fonte @isaulfelipe0")
+      ![Fonte: @isaulfelipe0]( /arq/img/RegisterPIPO.PNG)
 ### 2.4 A Estrutura da CPU:
    * Imagine que a CPU é como o diretor de uma grande empresa ou o cérebro humano em ação, com funções muito especializadas. Ela é responsável por executar todas as instruções de um programa, desde cálculos simples até a coordenação de tarefas complexas. Imagine que a CPU é como o diretor de uma grande empresa ou o cérebro humano em ação, com funções muito especializadas. Ela é responsável por executar todas as instruções de um programa, desde cálculos simples até a coordenação de tarefas complexas.
    * #### Os três componentes principais trabalham em conjunto para realizar essas operações:
